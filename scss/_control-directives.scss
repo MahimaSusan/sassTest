@@ -1,8 +1,10 @@
 .size {
-	display: inline-block;
+	text-align:center;
+  padding: 50px 0px;
+  display: block;
   @for $i from 3 through 6 {
     .item-#{$i} {
-      font-size: 12px * $i;
+      font-size: 5px * $i;
       padding-left: 10px;
     }
   }
@@ -22,15 +24,15 @@
 }
 }
 .color {
-	float: right;
-	display: inline-block;
-    @each $type,$txt,$back in $alt,$sub,$bck {
-      .#{$type}-link {
-        color: $txt;
-        background-color: $back;
-        width: 50px;
-        display: inline;
-        padding: 10px;
+	text-align:center;
+  padding: 50px 0;
+  @each $type,$txt,$back in $alt,$sub,$bck {
+    .#{$type}-link {
+      color: $txt;
+      background-color: $back;
+      width: 50px;
+      display: inline;
+      padding: 10px;
     }
   }
 }

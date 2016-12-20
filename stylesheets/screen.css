@@ -157,97 +157,106 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 
 /* line 1, ../scss/_control-directives.scss */
 .size {
-  display: inline-block;
+  text-align: center;
+  padding: 50px 0px;
+  display: block;
 }
-/* line 4, ../scss/_control-directives.scss */
+/* line 6, ../scss/_control-directives.scss */
 .size .item-3 {
-  font-size: 36px;
+  font-size: 15px;
   padding-left: 10px;
 }
-/* line 4, ../scss/_control-directives.scss */
+/* line 6, ../scss/_control-directives.scss */
 .size .item-4 {
-  font-size: 48px;
+  font-size: 20px;
   padding-left: 10px;
 }
-/* line 4, ../scss/_control-directives.scss */
+/* line 6, ../scss/_control-directives.scss */
 .size .item-5 {
-  font-size: 60px;
+  font-size: 25px;
   padding-left: 10px;
 }
-/* line 4, ../scss/_control-directives.scss */
+/* line 6, ../scss/_control-directives.scss */
 .size .item-6 {
-  font-size: 72px;
+  font-size: 30px;
   padding-left: 10px;
 }
-/* line 11, ../scss/_control-directives.scss */
+/* line 13, ../scss/_control-directives.scss */
 .size .item-3 {
   padding: 30px;
   color: #b3b3b3;
   border: 1px solid;
 }
-/* line 11, ../scss/_control-directives.scss */
+/* line 13, ../scss/_control-directives.scss */
 .size .item-2 {
   padding: 20px;
   color: #b3b3b3;
   border: 1px solid;
 }
-/* line 11, ../scss/_control-directives.scss */
+/* line 13, ../scss/_control-directives.scss */
 .size .item-1 {
   padding: 10px;
   color: #b3b3b3;
   border: 1px solid;
 }
-/* line 19, ../scss/_control-directives.scss */
+/* line 21, ../scss/_control-directives.scss */
 .size .item-1 {
   display: inline;
 }
-/* line 19, ../scss/_control-directives.scss */
+/* line 21, ../scss/_control-directives.scss */
 .size .item-2 {
   display: inline;
 }
-/* line 19, ../scss/_control-directives.scss */
+/* line 21, ../scss/_control-directives.scss */
 .size .item-3 {
   display: inline;
 }
-/* line 19, ../scss/_control-directives.scss */
+/* line 21, ../scss/_control-directives.scss */
 .size .item-4 {
   display: inline;
 }
-/* line 19, ../scss/_control-directives.scss */
+/* line 21, ../scss/_control-directives.scss */
 .size .item-5 {
   display: inline;
 }
-/* line 19, ../scss/_control-directives.scss */
+/* line 21, ../scss/_control-directives.scss */
 .size .item-6 {
   display: inline;
 }
 
-/* line 24, ../scss/_control-directives.scss */
+/* line 26, ../scss/_control-directives.scss */
 .color {
-  float: right;
-  display: inline-block;
+  text-align: center;
+  padding: 50px 0;
 }
-/* line 28, ../scss/_control-directives.scss */
+/* line 30, ../scss/_control-directives.scss */
 .color .alert-link {
-  color: yellow;
-  background-color: red;
+  color: #fff;
+  background-color: #1f3d82;
   width: 50px;
   display: inline;
   padding: 10px;
 }
-/* line 28, ../scss/_control-directives.scss */
+/* line 30, ../scss/_control-directives.scss */
 .color .submit-link {
-  color: white;
-  background-color: green;
+  color: #fff;
+  background-color: #006e80;
   width: 50px;
   display: inline;
   padding: 10px;
 }
-/* line 28, ../scss/_control-directives.scss */
+/* line 30, ../scss/_control-directives.scss */
 .color .back-link {
   color: blue;
   background-color: transparent;
   width: 50px;
   display: inline;
   padding: 10px;
+}
+
+@media (max-width: 767px) {
+  /* line 2, ../scss/_responsive.scss */
+  .size {
+    display: none;
+  }
 }
