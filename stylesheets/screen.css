@@ -274,8 +274,18 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   padding: 10px;
 }
 
+@media (max-width: 991px) {
+  /* line 3, ../scss/_responsive.scss */
+  .content-section .content-top, .content-section .content-bottom {
+    width: 90%;
+  }
+  /* line 6, ../scss/_responsive.scss */
+  .content-section .content-bottom {
+    display: none;
+  }
+}
 @media (max-width: 767px) {
-  /* line 2, ../scss/_responsive.scss */
+  /* line 12, ../scss/_responsive.scss */
   .size {
     display: none;
   }

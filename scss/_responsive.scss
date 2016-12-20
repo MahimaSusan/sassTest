@@ -1,3 +1,13 @@
+@include respond-to(medium) {
+  .content-section {
+    .content-top {
+      width: 90%;
+    }
+    .content-bottom {
+      display: none;
+    }
+  }
+}
 @include respond-to(small) {
   .size {
     display: none;
