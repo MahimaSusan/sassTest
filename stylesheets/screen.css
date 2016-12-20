@@ -98,32 +98,52 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 .content-section {
   width: 90%;
   margin: 0 auto;
+  padding: 25px 0;
   display: table;
 }
-/* line 5, ../scss/_content.scss */
-.content-section div {
-  display: table-cell;
-  width: 50%;
+/* line 6, ../scss/_content.scss */
+.content-section .content-top, .content-section .content-bottom {
+  display: inline-block;
+  width: 45%;
+  position: relative;
+  background: #97C02F;
+  margin: 0 20px;
 }
-/* line 8, ../scss/_content.scss */
-.content-section div .content-top-head, .content-section div h1 {
+/* line 12, ../scss/_content.scss */
+.content-section .content-top:before, .content-section .content-bottom:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-width: 0 16px 16px 0;
+  border-style: solid;
+  border-color: #658E15 #fff;
+}
+/* line 21, ../scss/_content.scss */
+.content-section .content-top .content-top-head, .content-section .content-bottom .content-top-head, .content-section .content-top .content-bottom h1, .content-section .content-bottom .content-top h1, .content-section .content-bottom h1 {
   font-weight: bold;
   text-align: center;
   line-height: 24px;
   padding: 10px 0;
   font-size: 20px;
 }
-/* line 15, ../scss/_content.scss */
-.content-section div .content-top-text, .content-section div p {
+/* line 28, ../scss/_content.scss */
+.content-section .content-top .content-top-text, .content-section .content-bottom .content-top-text, .content-section .content-top .content-bottom p, .content-section .content-bottom .content-top p, .content-section .content-bottom p {
   color: #6d6d6d;
   line-height: 22px;
   padding: 10px 0;
   font-size: 18px;
+  padding: 20px;
 }
-/* line 22, ../scss/_content.scss */
-.content-section div {
-  display: table-cell;
-  width: 50%;
+/* line 38, ../scss/_content.scss */
+.content-section .content-bottom:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-width: 0 16px 16px 0;
+  border-style: solid;
+  border-color: #658E15 #fff;
 }
 
 /* line 1, ../scss/_buttons.scss */

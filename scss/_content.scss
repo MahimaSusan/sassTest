@@ -1,10 +1,23 @@
 .content-section {
   width: 90%;
   margin: 0 auto;
+  padding: 25px 0;
   display: table;
-  div {
-    display: table-cell;
-    width: 50%;
+  .content-top {
+    display: inline-block;
+    width: 45%;
+    position: relative;
+    background: #97C02F;
+    margin: 0 20px;
+    &:before {
+      content: "";
+      position: absolute;
+      top: 0;
+      right: 0;
+      border-width: 0 16px 16px 0;
+      border-style: solid;
+      border-color: #658E15 #fff
+    }
     .content-top-head {
       font-weight: bold;
       text-align: center;
@@ -17,11 +30,20 @@
       line-height: 22px;
       padding: 10px 0;
       font-size: $p_font-size;
+      padding: 20px;
     }
   }
-  div {
-    display: table-cell;
-    width: 50%;
+  .content-bottom {
+    @extend .content-top;
+    &:before {
+      content: "";
+      position: absolute;
+      top: 0;
+      right: 0;
+      border-width: 0 16px 16px 0;
+      border-style: solid;
+      border-color: #658E15 #fff
+    }
     h1 {
       @extend .content-top-head;
     }
