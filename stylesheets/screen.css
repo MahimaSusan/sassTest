@@ -71,7 +71,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 .nav-bar ul {
   list-style-type: none;
   overflow: hidden;
-  background-color: #6d6d6d;
+  background-color: #40482f;
   height: 60px;
   font-weight: bold;
   font-size: 20px;
@@ -106,7 +106,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   display: inline-block;
   width: 45%;
   position: relative;
-  background: #97C02F;
+  background: rgba(151, 192, 47, 0.53);
   margin: 0 20px;
 }
 /* line 12, ../scss/_content.scss */
