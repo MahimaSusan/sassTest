@@ -1,0 +1,27 @@
+.size {
+	display: inline-block;
+  @for $i from 3 through 6 {
+    .item-#{$i} {
+      font-size: 12px * $i;
+    }
+  }
+  $j: 3;
+@while $j > 0 {
+	.item-#{$j} {
+		padding:10px * $j;
+    color: darken( $gray, 10% )
+	}
+	$j: $j - 1;
+}
+}
+.color {
+	float: right;
+	display: inline-block;
+    @each $type,$txt,$back in $alt,$sub,$bck {
+      .#{$type}-link {
+        color: $txt;
+        background-color: $back;
+        width: 50px;
+    }
+  }
+}

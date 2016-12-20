@@ -1,0 +1,21 @@
+.buttons {
+  width: 90%;
+  margin: 0 auto;
+  display: table;
+  span {
+    @include border-radius(2px);
+    border: 1px solid $dark_gray;
+    padding: 20px;
+    display: table-cell;
+    width: 50%;
+    text-align: center;
+    &:first-child{
+      background-color: #000;
+      color: #fff;
+    }
+    &:last-child {
+      background-color: #fff;
+      color: #000;
+    }
+  }
+}
