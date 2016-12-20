@@ -3,13 +3,16 @@
     list-style-type: none;
     overflow: hidden;
     background-color: $dark_gray;
+    height: 60px;
+    font-weight: bold;
+    font-size: 20px;
     li {
       float: left;
       a {
         display: block;
         color: $gray;
         text-align: center;
-        padding: 14px 16px;
+        padding: 20px 16px;
         text-decoration: none;
         &:hover {
           background-color: $gray;
