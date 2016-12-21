@@ -9,10 +9,9 @@
       @content;
     }
   }
-    @if $breakpoint=="medium" {
+  @if $breakpoint=="medium" {
     @media (max-width: 991px) {
       @content;
     }
   }
-
 }
