@@ -3,6 +3,15 @@
   -moz-border-radius: $radius;
   border-radius: $radius;
 }
+@mixin txt($weight) {
+  color: $dark_gray;
+  @if ($weight == bold) {
+    font-weight: bold;
+  }
+  @else if( $weight == normal) {
+    font-weight: normal;
+  }
+}
 @mixin respond-to($breakpoint) {
   @if $breakpoint=="small" {
     @media (max-width: 767px) {
@@ -13,14 +22,5 @@
     @media (max-width: 991px) {
       @content;
     }
-  }
-}
-@mixin txt($weight) {
-  color: $dark_gray;
-  @if ($weight == bold) {
-    font-weight: bold;
-  }
-  @else if( $weight == normal) {
-    font-weight: normal;
   }
 }
