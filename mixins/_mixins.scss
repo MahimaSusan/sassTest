@@ -20,4 +20,7 @@
   @if ($weight == bold) {
     font-weight: bold;
   }
+  @else if( $weight == normal) {
+    font-weight: normal;
+  }
 }

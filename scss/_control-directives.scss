@@ -24,7 +24,7 @@
 }
 li {
   &:first-child {
-    @include txt(none);
+    @include txt(normal);
   }
   &:last-child {
     @include txt(bold);

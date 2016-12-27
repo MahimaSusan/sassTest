@@ -246,6 +246,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 /* line 26, ../scss/_control-directives.scss */
 .size li:first-child {
   color: #6d6d6d;
+  font-weight: normal;
 }
 /* line 29, ../scss/_control-directives.scss */
 .size li:last-child {
