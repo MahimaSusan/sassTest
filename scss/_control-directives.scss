@@ -22,6 +22,14 @@
     display: inline;
   }
 }
+li {
+  &:first-child {
+    @include txt(none);
+  }
+  &:last-child {
+    @include txt(bold);
+  }
+}
 }
 .color {
 	text-align:center;

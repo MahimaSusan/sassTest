@@ -243,13 +243,22 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 .size .item-6 {
   display: inline;
 }
-
 /* line 26, ../scss/_control-directives.scss */
+.size li:first-child {
+  color: #6d6d6d;
+}
+/* line 29, ../scss/_control-directives.scss */
+.size li:last-child {
+  color: #6d6d6d;
+  font-weight: bold;
+}
+
+/* line 34, ../scss/_control-directives.scss */
 .color {
   text-align: center;
   padding: 50px 0;
 }
-/* line 30, ../scss/_control-directives.scss */
+/* line 38, ../scss/_control-directives.scss */
 .color .alert-link {
   color: #fff;
   background-color: #1f3d82;
@@ -257,7 +266,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   display: inline;
   padding: 10px;
 }
-/* line 30, ../scss/_control-directives.scss */
+/* line 38, ../scss/_control-directives.scss */
 .color .submit-link {
   color: #fff;
   background-color: #006e80;
@@ -265,7 +274,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   display: inline;
   padding: 10px;
 }
-/* line 30, ../scss/_control-directives.scss */
+/* line 38, ../scss/_control-directives.scss */
 .color .back-link {
   color: blue;
   background-color: transparent;

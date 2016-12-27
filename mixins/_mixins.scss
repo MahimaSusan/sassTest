@@ -15,3 +15,9 @@
     }
   }
 }
+@mixin txt($weight) {
+  color: $dark_gray;
+  @if ($weight == bold) {
+    font-weight: bold;
+  }
+}
